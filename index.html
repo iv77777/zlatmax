@@ -11,7 +11,7 @@
     <header class="header">
   <div class="header__top top-header">
     <div class="top-header__container">
-      <button hidden class="top-header__phone">
+      <button hidden class="top-header__phone" data-popup="popup-phone, 200">
         <img src="img/svgicons/footer-phone.svg" alt="">
       </button>
       <nav class="top-header__menu menu-top-header">
@@ -516,6 +516,27 @@
     <button data-close type="button" class="popup__close">Закрыть</button>
     <div class="popup__body">
       Текст попапа
+    </div>
+  </div>
+</div>
+<div class="popup" id="popup-phone">
+  <div class="popup__fake">
+    <div class="popup__fake-body popup__fake-body_js"></div>
+  </div>
+  <div class="popup__content popup__content_js">
+    <button data-close type="button" class="popup__close">Закрыть</button>
+    <div class="popup__body">
+      <ul class="phones-popup__list phones-popup">
+        <li>
+          <a href="tel:88007774968" class="phones-popup__phone">8-800-777-49-68</a>
+        </li>
+        <li>
+          <a href="tel:88007774969" class="phones-popup__phone">8-800-777-49-69</a>
+        </li>
+        <li>
+          <a href="tel:88007774970" class="phones-popup__phone">8-800-777-49-70</a>
+        </li>
+      </ul>
     </div>
   </div>
 </div>
